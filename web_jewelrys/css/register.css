@@ -1,0 +1,54 @@
+body {
+    background-color: #4c8bf5; /* Màu nền */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white; /* Màu nền của form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-form h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.registration-form input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration-form button {
+    background-color: #1e88e5; /* Màu của nút đăng ký */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration-form button:hover {
+    background-color: #1565c0; /* Màu khi hover */
+}
+
+.terms {
+    margin: 15px 0;
+}
+
+.registration-form p {
+    margin-top: 10px;
+}
